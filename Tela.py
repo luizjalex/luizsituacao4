@@ -22,10 +22,10 @@ class TelaPrincipal(QtWidgets.QWidget):
     def cadastrarProducao(self):
         data = self.caixaData.text()
         nome = self.caixaNome.text()
-        origem = self.caixaOrigem.Text()
-        destino = self.caixaDestino.Text()
-        forma = self.caixaForma.Text
-        inserir(converterData(data),)
+        origem = self.caixaOrigem.text()
+        destino = self.caixaDestino.text()
+        forma = self.caixaForma.text
+        inserir(converterData(data),nome, origem, destino, forma)
 
     
 if __name__ == "__main__":

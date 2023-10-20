@@ -5,7 +5,7 @@ from tkinter import messagebox
 def inserir(data, nome, origem, destino, forma):
     conexao, cursor = conectar()
     try:
-        sql = f"""INSERT INTO tb_producao
+        sql = f"""INSERT INTO pacotes_viagens
                 (data_viagem, nome_cliente, local_origem, local_destino, forma_pagamento)
                 VALUES
                 ('{data}','{nome}','{origem}','{destino}','{forma}')

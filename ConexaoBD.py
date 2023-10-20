@@ -7,7 +7,7 @@ def conectar():
             host="localhost",
             user="root",
             passwd="root",
-            database="bd_situacao_02"
+            database="bd_situacao4"
         )
         cursor = conexao.cursor()
         print("Conectado com sucesso ao banco")
